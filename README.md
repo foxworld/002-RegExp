@@ -3,6 +3,8 @@
 
 002.정규표현식 세미나
 
+[정규표현식 테스트 URL](http://www.regexr.com)
+[정규표현식 도식화 URL](http://www.regexper.com)
 
 ### 2.Javascript Syntax
     var str = "#id";
