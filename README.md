@@ -87,12 +87,14 @@
     ("One ring to bring them all and in the darkness bind them").match(/r.?/g);
     ("One ring to bring them all and in the darkness bind them").match(/r.??/g);
 
-    ("<div>test1</div> <div>test2</div> <div></div> <div></div>").match(/<div>.*<\/div>/g);
-    ("<div>test1</div> <div>test2</div> <div></div> <div></div>").match(/<div>.*?<\/div>/g);
-    ("<div>test1</div> <div>test2</div> <div></div> <div></div>").match(/<div>.+<\/div>/g);
-    ("<div>test1</div> <div>test2</div> <div></div> <div></div>").match(/<div>.+?<\/div>/g);
-    ("<div>test1</div> <div>test2</div> <div></div> <div></div>").match(/<div>.?<\/div>/g);
-    ("<div>test1</div> <div>test2</div> <div></div> <div></div>").match(/<div>.??<\/div>/g);
+```
+("<div>test1</div> <div>test2</div> <div></div> <div></div>").match(/<div>.*<\/div>/g);
+("<div>test1</div> <div>test2</div> <div></div> <div></div>").match(/<div>.*?<\/div>/g);
+("<div>test1</div> <div>test2</div> <div></div> <div></div>").match(/<div>.+<\/div>/g);
+("<div>test1</div> <div>test2</div> <div></div> <div></div>").match(/<div>.+?<\/div>/g);
+("<div>test1</div> <div>test2</div> <div></div> <div></div>").match(/<div>.?<\/div>/g);
+("<div>test1</div> <div>test2</div> <div></div> <div></div>").match(/<div>.??<\/div>/g);
+```
 
 ```
 Greedy quantifier(탐욕적인 수량자) vs. Lazy quantifier(게으른 수량자)
