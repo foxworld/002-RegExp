@@ -135,7 +135,7 @@ Greedy quantifier(탐욕적인 수량자) vs. Lazy quantifier(게으른 수량�
     ("cat cats tomcat").match(/\B.\B./g);
 
 
-### 20.“(?=<pattern>)”
+### 20.“(?=\<pattern\>)”
     ("AAAX---aaax---111").match(/\w+(?=X)/g);
     ("AAAX---aaax---111").match(/\w+(?=\w)/g);
 
